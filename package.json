@@ -3,9 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "dev": "slidev --open --force",
     "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "export:light": "slidev export --light",
+    "export:dark": "slidev export --dark"
   },
   "dependencies": {
     "@slidev/cli": "^0.49.29",

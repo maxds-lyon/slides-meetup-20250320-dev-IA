@@ -5,63 +5,57 @@ addons:
 rabbit:
   slideNum: true
 
-title: En quête d'expérience
+title: < titre >
 titleTemplate: '%s - 2024'
 logoHeader: 'images/logo.svg'
 website: 'maxds.fr'
 handle: 'maxds'
 
-class: text-center
-
 drawings:
   persist: false
-
-transition: slide-left
-
 mdc: false
 
 layout: center
+transition: slide-left
+
 hideInToc : true
 ---
+# < titre >
 
-# Bienvenue
-
-## Nous allons parler de stratégies et conseils pour vous aider dans votre recherche d'alternance
-
-Vous pouvez me poser des questions à tout moment
+## < sous-titre >
 
 <!-- Introduction -->
 ---
-src: ./pages/00_i.md
-hide: false
+src: ./pages/_introduction.md
 ---
+
 <!-- TOC -->
 ---
-src: ./pages/00_t.md
-hide: false
+src: ./pages/_toc.md
 ---
-<!-- Types de Développeurs -->
+
+<!-- contents -->
 ---
-src: ./pages/01_p.md
-hide: false
+src: ./pages/part_00.md
 ---
-<!-- Quel est le rôle d'un développeur ? -->
+
 ---
-src: ./pages/02_p.md
-hide: false
+src: ./pages/part_01.md
 ---
-<!-- Quotidien d'un Développeur -->
+
 ---
-src: ./pages/03_p.md
-hide: false
+src: ./pages/part_02.md
 ---
-<!-- Défis et Avantages -->
+
 ---
-src: ./pages/04_p.md
-hide: false
+src: ./pages/part_03.md
 ---
+
+---
+src: ./pages/part_04.md
+---
+
 <!-- Conclusion -->
 ---
-src: ./pages/10_c.md
-hide: false
+src: ./pages/_conclusion.md
 ---
