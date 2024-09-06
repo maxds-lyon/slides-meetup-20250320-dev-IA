@@ -1,0 +1,45 @@
+name: Build and Export PDF
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-export-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "21"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build presentation
+        run: npm run build
+
+      - name: Build PDF
+        run: npm run export
+
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: slides-export.pdf
+          path: slides-export.pdf
+
+      - name: Zip build directory
+        run: zip -r dist.zip dist/
+
+      - name: Upload build directory
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist-build.zip
+          path: dist.zip
