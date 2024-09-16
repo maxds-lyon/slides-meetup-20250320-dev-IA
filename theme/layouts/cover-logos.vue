@@ -33,9 +33,11 @@ import Default from "./default.vue";
 const props = defineProps({
   logos: {
     type: Array,
+    default: () => [],
   },
 });
+
 const logoSources = computed(() =>
-  props.logos.map((logo) => resolveAssetUrl(logo))
+  props.logos.map((logo) => resolveAssetUrl(logo as string))
 );
 </script>
