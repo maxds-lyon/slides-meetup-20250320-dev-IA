@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-main slidev-layout">
+  <div class="slidev-layout px-1/5">
     <LayoutHeader :logoHeader="logoHeader" />
     <div class="my-auto">
       <slot />

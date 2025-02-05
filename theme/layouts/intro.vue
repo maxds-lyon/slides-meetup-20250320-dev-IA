@@ -1,7 +1,7 @@
 <template>
   <default class="intro">
     <div class="flex items-center">
-      <figure class="w-1/2 px-12">
+      <figure class="w-1/2 px-12" v-if="introImage">
         <img
           :src="imageSrc"
           height="312"
@@ -9,7 +9,7 @@
           class="rounded-full p-0 bg-gradient-to-r from-orange-700 to-purple-800 dark:(from-white to-purple-50)"
         />
       </figure>
-      <div class="w-1/2">
+      <div :class="introImage ? 'w-1/2' : 'w-full'">
         <slot />
       </div>
     </div>

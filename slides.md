@@ -8,22 +8,24 @@ rabbit:
 title: < titre >
 titleTemplate: '%s - 2024'
 logoHeader: 'images/logo.svg'
-website: 'maxds.fr'
-handle: 'maxds'
+website: 'https://maxds.fr'
+handle: 'Max Lyon'
 
 drawings:
   persist: false
 mdc: false
 
 layout: center
-transition: slide-left
+transition: slide-up
 
 hideInToc : true
 ---
 # < titre >
 
 ## < sous-titre >
-
+---
+src: ./pages/_presentation.md
+---
 <!-- Introduction -->
 ---
 src: ./pages/_introduction.md

@@ -1,9 +1,11 @@
 ---
-layout: intro
-introImage: 'https://picsum.photos/600/600'
-hideInToc : true
+layout: image-center
+image: 'https://picsum.photos/600/600'
+imageWidth: 50%
+hideInToc: true
 ---
 
-## Qui suis-je ?
+# introduction ...
 
-Laissez moi me présenter, je m'appelle < votre nom >.
+<!--
+-->
