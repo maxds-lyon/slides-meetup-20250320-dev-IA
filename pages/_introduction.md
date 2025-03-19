@@ -1,11 +1,10 @@
 ---
-layout: image-center
-image: 'https://picsum.photos/600/600'
-imageWidth: 50%
+layout: image
+image: images/introduction.png
 hideInToc: true
 ---
 
-# introduction ...
+# Introduction ...
 
 <!--
 -->

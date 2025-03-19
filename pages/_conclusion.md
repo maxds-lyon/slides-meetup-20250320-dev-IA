@@ -14,44 +14,19 @@ layout: default
 hideInToc : true
 ---
 
-# Ce que nous avons appris
+## À retenir
 
-- item 1
-- item 2
-- item 3
+- L'IA transforme le développement, mais ne le remplace pas
+- La maîtrise technique reste fondamentale
+- L'équilibre entre productivité et compréhension est crucial
 
-<!--
--->
-
----
-layout: two-cols-header
-hideInToc : true
----
-
-# Pour aller plus loin
-
-::left::
-## Colonne 1
-- item 1
-- item 2
-- item 3
-
-::right::
-## Colonne 2
-- item 1
-- item 2
-- item 3
-
-<!--
--->
 
 ---
 layout: center
 hideInToc : true
 ---
 
-# "Citation"
-
+# "L'avenir appartient à ceux qui savent utiliser l'IA comme multiplicateur de leur expertise, pas comme substitut."
 <!--
 -->
 

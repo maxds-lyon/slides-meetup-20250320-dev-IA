@@ -5,8 +5,8 @@ addons:
 rabbit:
   slideNum: true
 
-title: < titre >
-titleTemplate: '%s - 2024'
+title: L'IA en dev
+titleTemplate: '%s - 2025'
 logoHeader: 'images/logo.svg'
 website: 'https://maxds.fr'
 handle: 'Max Lyon'
@@ -20,9 +20,9 @@ transition: slide-up
 
 hideInToc : true
 ---
-# < titre >
+# L'IA en dev
 
-## < sous-titre >
+##  Booster vos devs, éviter les embûches
 ---
 src: ./pages/_presentation.md
 ---
