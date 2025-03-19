@@ -57,6 +57,14 @@ src: ./pages/part_03.md
 src: ./pages/part_04.md
 ---
 
+---
+src: ./pages/part_05.md
+---
+
+---
+src: ./pages/part_06.md
+---
+
 <!-- Conclusion -->
 ---
 src: ./pages/_conclusion.md

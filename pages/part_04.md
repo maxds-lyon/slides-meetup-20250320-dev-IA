@@ -1,41 +1,36 @@
 ---
 layout: image
-image: images/04.png
+image: images/03.png
 ---
-# Framework d'utilisation 
+# Une utilisation saine et perenne des LLM
 
 ---
 layout: default
 hideInToc : true
 ---
-## La méthode V.E.R.I.F :
-
-- **V**alidation systématique du code généré
-- **E**xpertise humaine comme décideur final
-- **R**éflexion préalable au problème (avant de demander)
-- **I**ntégration consciente et comprise
-- **F**eedback en continu (amélioration des prompts)
+## un LLM est une boite noire
+- Comme si on hurlait dans un trou et que le trou nous donne une réponse
+- On ne sait pas ce qu'il se passe et on ne sait pas comment on a eu la réponse
 
 ---
-layout: center
+layout: default
 hideInToc : true
 ---
-
-# "L'IA devrait amplifier vos capacités, pas les remplacer"
+## Attention ou trainent nos données
+- OpenAI => USA
+- Anthropic => USA
+- Grok => USA
+- Mistral => Europe
 
 ---
-layout: two-cols-header
+layout: default
 hideInToc : true
 ---
-## Pour ceux qui débute dans le dev
-::left::
-- Pratiquer sans IA régulièrement
-- Utiliser l'IA comme tuteur (poser des questions)
-- Déconstruire le code généré
-- Challenger l'IA avec des alternatives
+## Auto-hebergement
+- Possible sur quasiment tout les ordinateurs de dev
+- Ollama par exemple
+- Moins bien, mais gratuit et plus securisé => Open Source
+- Force a comprendre un peu plus comment ca fonctionne
+- Impact ecologique plus leger
 
-::right::
-- Mentorat entre pairs sur l'utilisation responsable
-- Équilibrer l'assistance et l'apprentissage
-- Faire des exercices "sans filet" (par exemple, coupez vos accès internet)
-- Valoriser la compréhension, pas juste le résultat
+---
